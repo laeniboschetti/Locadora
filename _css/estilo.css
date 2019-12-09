@@ -1,0 +1,296 @@
+div.carousel-inner{
+    
+max-height:420px;
+    
+}
+
+@media (min-width:1170px){
+    div.carousel-inner{
+    max.height:770px;
+    }
+}
+
+#slide-home{
+    padding-top: 120px;
+}
+
+#locacao_finalizada{
+    padding-top: 130px;
+    width: 50%;
+    margin-left: 50px;
+}
+
+#filmes{
+    padding-top: 150px;
+    padding-left: 5%;
+}
+
+.row{
+    padding-top: 150px;
+}
+
+.row h2{
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
+#listagem_filmes {
+    width:860px;
+    margin:0 auto;
+}
+
+#listagem_filmes ul {
+    float:left;
+    margin:5px 10px 5px;
+    padding:0;
+    width:200px;
+    height: 80px;
+}
+
+#filme li img {
+    margin: 150px 50px 0px 300px;
+    width: 400px;
+    height: 250px;
+}
+
+#filme li{
+    font-family: sans-serif;
+    font-size: 12px;
+    list-style: none;
+}
+
+#filme #titulo_filme{
+    font-weight: bold;    
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+#resumofilme{
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 400px;
+    white-space:normal;
+}
+
+#filme #locacao{
+  margin: 10% 50% 50% 27%;
+}
+
+#listagem_filmes li {
+    font-family: sans-serif;
+    font-size: 12px;
+    list-style: none;
+}
+
+#listagem_filmes #titulo_filme{
+   font-weight: bold;
+}
+
+#listagem_filmes li.imagem {
+    float:left;
+    margin-right: 10px;
+}
+
+#listagem_filmes li h3 {
+    margin:0;   
+}
+
+/* estilos da pesquisa */
+#filmes #janela_pesquisa {
+    width:860px;
+    height: 70px;
+    margin:0 auto 30px;
+    border-bottom:1px dotted #ddd;
+}
+
+#filmes #janela_pesquisa form {
+    width:470px;
+    margin:10px auto;
+}
+
+#filmes #janela_pesquisa form input[type="text"] {
+    width:380px;
+    height:35px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float:left;
+    outline: none;
+}
+
+#titulo_filme a{
+    font-weight: bold;
+    color: black;
+}
+
+#titulo_filme_locacao{
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top:43%;
+    left:8%;
+    white-space: nowrap;
+}
+
+#valor_filme_locacao{
+    white-space: nowrap;
+    position: absolute;
+    top:46%;
+    left:8%;
+    
+}
+
+#filmes #janela_pesquisa form input[type="image"] {
+    outline: none;
+    cursor: pointer;
+}
+/* fim do estilo da pesquisa */
+
+#filmes_genero ul li {
+    font-family: sans-serif;
+    font-size: 12px;
+    list-style: none;
+}
+
+#filmes_genero ul {
+    float:left;
+    margin:0% 5% 15% 5%;
+    padding:0;
+    width:200px;
+    height: 80px;
+}
+
+#listagem_filmes_genero li {
+    font-family: sans-serif;
+    font-size: 12px;
+    list-style: none;
+}
+    
+.row h2{
+    position: absolute;
+    top:10%;
+    left:10%;
+}
+
+#listagem_filmes_genero #titulo_filme li {
+    font-weight: bold;
+}
+
+#listagem_filmes li img {
+    border:1px solid #ddd;   
+}
+
+.genero
+{
+     text-transform: uppercase;
+     color: chartreuse;
+     text-decoration: underline;
+}
+
+.genero_filme
+{
+     text-transform: uppercase;
+     color: chartreuse;
+     text-decoration: underline;
+     margin: 0% 70% 2% 5%;
+}
+
+#locacao a, a:hover{
+    color:white;
+    text-decoration:none;
+}
+
+#listagem_filme_locacao li{
+    align-content:flex-end;
+    font-family: sans-serif;
+    font-size: 12px;
+    list-style: none;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.filme_locacao{
+    padding-top: 0px;
+}
+
+.valor_total_locacao{
+  position: absolute;
+  top: 65%;
+  left: 8%;
+    
+}
+
+#gravar_locacao{
+  position: absolute;
+  top: 72%;
+  left: 6.5%;
+    
+}
+
+#icone_usuario img{
+    width:6.7%;
+    height:15.9%;  
+    position: absolute;
+	top:19.9%;
+	left:4%;    
+    border: 1px solid #a9a9a9;
+    border-radius: 3px;
+}
+
+#icone_senha img{
+    width:7.2%;
+    height:15.8%;  
+    position: absolute;
+	top:40.3%;
+	left:4.2%;    
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+}
+
+.login{     
+   /*position: absolute;*/
+	top:17.1%;
+	left:5.5%; 
+    padding: 30%;
+    background-color:darkgray;
+    padding-top: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 1px solid #a9a9a9;
+    border-radius: 3px;
+}
+
+#efetuarlogin{
+   position: absolute;
+   top: 75%;
+   left: 66%;
+}
+
+.center{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+#titulologin{
+    position: absolute;
+    top:20%;
+    left: 30%;    
+}
+
+.formapagamento{
+    position: absolute;
+    top: 52%;
+    left: 8%;   
+}
+
+#formapagamento{
+    position: absolute;
+    top: 56%;
+    left: 7%;
+    width:80%;
+}
+
